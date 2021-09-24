@@ -1,0 +1,40 @@
+# //  QuestaSim-64 6.5f Jun 16 2010 Linux 4.15.0-142-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim paramulti 
+# Loading work.paramulti
+# Loading work.andadder
+# Loading work.fulladder
+# ** Warning: (vsim-3015) paramulti.v(9): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y0
+# ** Warning: (vsim-3015) paramulti.v(9): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y0
+# ** Warning: (vsim-3015) paramulti.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y1
+# ** Warning: (vsim-3015) paramulti.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y1
+# ** Warning: (vsim-3015) paramulti.v(11): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y2
+# ** Warning: (vsim-3015) paramulti.v(11): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x0y2
+# ** Warning: (vsim-3015) paramulti.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:xoy3
+# ** Warning: (vsim-3015) paramulti.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:xoy3
+# ** Warning: (vsim-3015) paramulti.v(18): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x1y3
+# ** Warning: (vsim-3015) paramulti.v(24): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x2y3
+# ** Warning: (vsim-3015) paramulti.v(30): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'sin'. The port definition is at: andadder.v(1).
+#         Region: :paramulti:x3y3
+# ** Warning: (vsim-3015) paramulti.v(33): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cin'. The port definition is at: fulladder.v(1).
+#         Region: :paramulti:f0
+# ** Warning: (vsim-3015) paramulti.v(36): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'a'. The port definition is at: fulladder.v(1).
+#         Region: :paramulti:f3
