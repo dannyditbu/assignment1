@@ -1,6 +1,6 @@
 module signedparamulti(x, y, out);
 input [4:0] x,y;
-output out;
+output [9:0] out;
 integer i;
 reg bit0;
 reg [9:0] temp;
@@ -9,10 +9,11 @@ reg [9:0] out;
 reg [4:0] andop;
 reg [9:0] extendedandop;
 
-	assign tempx = x[4]?~x + 1:x;
-	assign tempy = y[4]?~y + 1:y; 
-	always @(tempx or tempy) begin
-		temp = 9'b0;
+	 
+	always @(x or y) begin
+		assign tempx = x[4]?~x + 1:x;
+		assign tempy = y[4]?~y + 1:y;
+		assign temp = 9'b0;
 		for (i = 0; i < 5; i = i + 1) begin
 			if (tempx[1]) begin
 				temp = temp + (tempy<<1);
